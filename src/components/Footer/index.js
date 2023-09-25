@@ -14,13 +14,13 @@ const Footer = () => (
     </p>
     <ul className="footer-icon-container">
       <li className="footer-icon-git">
-        <VscGithubAlt />
+        <VscGithubAlt className="footer-icon-git" />
       </li>
       <li className="footer-icon-ins">
-        <FiInstagram />
+        <FiInstagram className="footer-icon-ins" />
       </li>
       <li className="footer-icon-x">
-        <FaTwitter />
+        <FaTwitter className="footer-icon-x" />
       </li>
     </ul>
   </div>

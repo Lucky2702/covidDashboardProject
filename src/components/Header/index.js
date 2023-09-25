@@ -1,5 +1,8 @@
 import {Component} from 'react'
 
+import {RiMenuAddFill} from 'react-icons/ri'
+import {MdOutlineClose} from 'react-icons/md'
+
 import {Link} from 'react-router-dom'
 
 import './index.css'
@@ -47,7 +50,7 @@ class Header extends Component {
               className="menu-button"
               onClick={this.onClickMenuButton}
             >
-              Menu
+              <RiMenuAddFill size={25} />
             </button>
           </div>
         </nav>
@@ -70,7 +73,7 @@ class Header extends Component {
               className="close-button"
               onClick={this.onClickCloseButton}
             >
-              Close
+              <MdOutlineClose size={16} />
             </button>
           </div>
         )}

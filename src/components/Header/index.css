@@ -77,11 +77,12 @@
 }
 
 .nav-sm {
-  width: 100%;
-  height: 100px;
+  width: 90%;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #161625;
 }
 
 .list-container-sm {
@@ -103,12 +104,24 @@
 }
 
 .menu-button {
+  color: #f8fafc;
+  border: none;
+  background-color: transparent;
+  outline: none;
   cursor: pointer;
 }
 
 .close-button {
+  height: 23px;
+  width: 23px;
+  color: #222222;
+  border: none;
+  border-radius: 50%;
+  background-color: #f8fafc;
+  outline: none;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 15px;
+  padding: 4px;
 }
 
 @media screen and (min-width: 768px) {

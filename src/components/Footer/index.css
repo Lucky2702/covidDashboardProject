@@ -39,9 +39,12 @@
 
 .footer-icon-container {
   display: flex;
+  width: auto;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .footer-icon-git {
@@ -49,7 +52,7 @@
   height: 30px;
   color: #cbd5e1;
   flex-shrink: 0;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .footer-icon-ins {
@@ -57,7 +60,7 @@
   width: 23px;
   height: 30px;
   flex-shrink: 0;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .footer-icon-x {
@@ -65,27 +68,35 @@
   width: 23px;
   height: 30px;
   flex-shrink: 0;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .footer-heading {
     font-size: 24px;
+    margin-right: 22px;
+  }
+  .ind {
+    font-size: 24px;
   }
   .footer-para {
     font-size: 16px;
+    margin-right: 22px;
   }
   .footer-icon-ins {
-    width: 70px;
-    height: 70px;
+    width: 45px;
+    height: 50px;
+    margin-right: 25px;
   }
   .footer-icon-x {
-    width: 70px;
-    height: 70px;
+    width: 45px;
+    height: 50px;
+    margin-right: 25px;
   }
 
   .footer-icon-git {
-    width: 70px;
-    height: 70px;
+    width: 45px;
+    height: 50px;
+    margin-right: 25px;
   }
 }
