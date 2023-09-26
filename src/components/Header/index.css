@@ -1,131 +1,67 @@
-.header-container {
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.header-bg-container {
   width: 100%;
-  position: fixed;
-  top: 0;
-  min-height: 60px;
+  height: 75px;
   background-color: #1e1e30;
-}
-
-.nav-link {
-  text-decoration: none;
-}
-
-@media screen and (min-width: 768px) {
-  .header-container {
-    height: 80px;
-  }
-}
-
-.nav-container {
-  width: 90%;
-  height: 90%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 15px;
-}
-
-.web-logo {
-  color: #f8fafc;
-  text-align: center;
-  font-family: 'Bree Serif';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
-}
-
-.india {
-  color: #3b82f6;
-  font-family: Bree Serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-@media screen and (min-width: 768px) {
-  .web-logo {
-    font-size: 20px;
-  }
-  .india {
-    font-size: 20px;
-  }
-}
-
-.nav-items-lg-view {
-  list-style-type: none;
-  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-
-.nav-item-title-lg {
-  color: #f8fafc;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
+.header-li {
+  display: flex;
+  width: 18%;
+  justify-content: space-between;
+  margin-right: 7%;
+  color: #ffffff;
+  font-size: 17px;
+  list-style: none;
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  padding-right: 10px;
 }
-
-@media screen and (max-width: 767px) {
-  .nav-items-lg-view {
-    display: none;
-  }
-}
-
-.nav-sm {
-  width: 90%;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #161625;
-}
-
-.list-container-sm {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-title-sm {
-  color: #94a3b8;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
-  letter-spacing: -0.356px;
-  padding-right: 20px;
-}
-
-.menu-button {
+.covid-india {
+  font-size: 20px;
+  margin-left: 10%;
   color: #f8fafc;
-  border: none;
-  background-color: transparent;
-  outline: none;
-  cursor: pointer;
+  font-size: 'Bree Serif';
+  font-weight: 500;
+}
+.header-span {
+  color: #3b82f6;
 }
 
-.close-button {
-  height: 23px;
-  width: 23px;
-  color: #222222;
-  border: none;
-  border-radius: 50%;
-  background-color: #f8fafc;
-  outline: none;
-  cursor: pointer;
-  margin-right: 15px;
-  padding: 4px;
-}
-
-@media screen and (min-width: 768px) {
-  .nav-items-sm-view {
-    display: none;
+@media screen and (max-width: 700px) {
+  .header-bg-container {
+    width: 100%;
+    height: 75px;
+    background-color: #1e1e30;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
+  .header-li {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    color: #ffffff;
+    font-size: 12px;
+    list-style: none;
+    font-weight: 500;
+  }
+  .covid-india {
+    font-size: 15px;
+    color: #f8fafc;
+    font-size: 'Bree Serif';
+    font-weight: 500;
+  }
+  .header-span {
+    color: #3b82f6;
+  }
+}
+.link-s {
+  text-decoration: none;
+  color: #f8fafc;
 }

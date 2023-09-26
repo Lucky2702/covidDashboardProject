@@ -1,29 +1,22 @@
-import {VscGithubAlt} from 'react-icons/vsc'
 import {FiInstagram} from 'react-icons/fi'
+import {VscGithubAlt} from 'react-icons/vsc'
 import {FaTwitter} from 'react-icons/fa'
-
 import './index.css'
 
-const Footer = () => (
-  <div className="footer-container">
-    <h1 className="footer-heading">
-      COVID19<span className="ind">INDIA</span>
-    </h1>
-    <p className="footer-para">
-      we stand with everyone fighting on the front lines
-    </p>
-    <ul className="footer-icon-container">
-      <li className="footer-icon-git">
-        <VscGithubAlt className="footer-icon-git" />
-      </li>
-      <li className="footer-icon-ins">
-        <FiInstagram className="footer-icon-ins" />
-      </li>
-      <li className="footer-icon-x">
-        <FaTwitter className="footer-icon-x" />
-      </li>
-    </ul>
-  </div>
-)
-
-export default Footer
+export default function Footer() {
+  return (
+    <div className="footer">
+      <h1 className="covid-india-a">
+        COVID19<span className="header-span">INDIA</span>
+      </h1>
+      <p className="tagline">
+        we stand with everyone fighting on the front lines
+      </p>
+      <div className="icon-container">
+        <VscGithubAlt className="icon" />
+        <FiInstagram className="icon" />
+        <FaTwitter className="icon" />
+      </div>
+    </div>
+  )
+}
